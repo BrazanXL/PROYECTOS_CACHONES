@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.mavenproject1;
+package com.mycompany.software;
 
 /**
  *
  * @author admin
  */
-public class Mavenproject1 {
+public class BIO_PROJECT {
 
     public static void main(String[] args) {
         System.out.println("Hello Worldessddds!");
