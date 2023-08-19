@@ -15,5 +15,6 @@ public class Mavenproject1 {
         System.out.println("Recibido xd");
         System.out.println("Lajote speaking");
         System.out.println("Habla  Cachon");
+        System.out.println("Mani andas mamando kcho :c");
     }
 }
