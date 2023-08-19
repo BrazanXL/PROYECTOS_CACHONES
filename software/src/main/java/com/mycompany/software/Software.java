@@ -6,7 +6,10 @@ package com.mycompany.software;
 
 /**
  *
- * @author KyB
+ * @author Bryan Pantoja
+ * @author Ismael cajar
+ * @author hansel ortiz
+ * @author rafael camargo
  */
 public class Software {
 
