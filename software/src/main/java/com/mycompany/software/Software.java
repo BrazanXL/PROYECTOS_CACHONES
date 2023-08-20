@@ -1,11 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.software;
-
 /**
- *
  * @author Bryan Pantoja
  * @author Ismael cajar
  * @author hansel ortiz
