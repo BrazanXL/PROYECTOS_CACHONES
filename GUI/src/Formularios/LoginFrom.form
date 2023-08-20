@@ -71,7 +71,7 @@
                           <Component id="jIconPass" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jButton1" max="32767" attributes="0"/>
+                              <Component id="jLogin" max="32767" attributes="0"/>
                               <Component id="jLabel6" pref="128" max="32767" attributes="0"/>
                               <Component id="jTextPass" max="32767" attributes="0"/>
                           </Group>
@@ -110,7 +110,7 @@
                       <Component id="jTextPass" pref="20" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="27" max="32767" attributes="0"/>
-                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLogin" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="40" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -220,7 +220,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="jLogin">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="cc" red="0" type="rgb"/>
@@ -231,7 +231,7 @@
             <Property name="text" type="java.lang.String" value="LOGIN"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLoginActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="ExitButton">

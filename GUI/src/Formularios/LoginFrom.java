@@ -37,7 +37,7 @@ public class LoginFrom extends javax.swing.JFrame {
         jTextPass = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
         jIconPass = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        jLogin = new javax.swing.JButton();
         ExitButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -82,12 +82,12 @@ public class LoginFrom extends javax.swing.JFrame {
 
         jIconPass.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/key.png"))); // NOI18N
 
-        jButton1.setBackground(new java.awt.Color(0, 204, 153));
-        jButton1.setFont(new java.awt.Font("Lucida Sans", 2, 14)); // NOI18N
-        jButton1.setText("LOGIN");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jLogin.setBackground(new java.awt.Color(0, 204, 153));
+        jLogin.setFont(new java.awt.Font("Lucida Sans", 2, 14)); // NOI18N
+        jLogin.setText("LOGIN");
+        jLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jLoginActionPerformed(evt);
             }
         });
 
@@ -127,7 +127,7 @@ public class LoginFrom extends javax.swing.JFrame {
                         .addComponent(jIconPass)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLogin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, 128, Short.MAX_VALUE)
                             .addComponent(jTextPass))))
                 .addGap(114, 114, 114))
@@ -158,7 +158,7 @@ public class LoginFrom extends javax.swing.JFrame {
                     .addComponent(jIconPass)
                     .addComponent(jTextPass, javax.swing.GroupLayout.DEFAULT_SIZE, 20, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(jLogin)
                 .addContainerGap(40, Short.MAX_VALUE))
         );
 
@@ -176,9 +176,9 @@ public class LoginFrom extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jLoginActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_jLoginActionPerformed
 
     private void ExitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExitButtonActionPerformed
         System.exit(0);
@@ -222,13 +222,13 @@ public class LoginFrom extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton ExitButton;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jIconPass;
     private javax.swing.JLabel jIconUsuario;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JButton jLogin;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTextField jTextPass;
