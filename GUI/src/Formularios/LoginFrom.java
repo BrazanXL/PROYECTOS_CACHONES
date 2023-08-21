@@ -133,13 +133,15 @@ public class LoginFrom extends javax.swing.JFrame {
                 .addGap(114, 114, 114))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(ExitButton))
+                .addComponent(ExitButton)
+                .addGap(14, 14, 14))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(9, 9, 9)
                 .addComponent(ExitButton)
-                .addGap(27, 27, 27)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel1)
                 .addGap(36, 36, 36)
                 .addComponent(jLabel2)
