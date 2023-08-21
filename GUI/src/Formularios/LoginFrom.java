@@ -38,10 +38,10 @@ public class LoginFrom extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        jTextUser = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        jPasswordField1 = new javax.swing.JPasswordField();
-        jButton1 = new javax.swing.JButton();
+        jPassF = new javax.swing.JPasswordField();
+        jBLogin = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setIconImage(getIconImage());
@@ -86,6 +86,7 @@ public class LoginFrom extends javax.swing.JFrame {
         Background.add(Fondo_Blanco, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 160));
 
         Fondo_Nranja.setBackground(new java.awt.Color(255, 102, 0));
+        Fondo_Nranja.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
         jLabel1.setText("Login");
@@ -98,11 +99,11 @@ public class LoginFrom extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("USER");
 
-        jTextField1.setBackground(new java.awt.Color(204, 102, 0));
-        jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        jTextUser.setBackground(new java.awt.Color(204, 102, 0));
+        jTextUser.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTextUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                jTextUserActionPerformed(evt);
             }
         });
 
@@ -110,17 +111,16 @@ public class LoginFrom extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("PASSWORD");
 
-        jPasswordField1.setBackground(new java.awt.Color(204, 102, 0));
-        jPasswordField1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jPasswordField1.setPreferredSize(new java.awt.Dimension(64, 22));
+        jPassF.setBackground(new java.awt.Color(204, 102, 0));
+        jPassF.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Log in");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jBLogin.setBackground(new java.awt.Color(0, 0, 0));
+        jBLogin.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jBLogin.setForeground(new java.awt.Color(255, 255, 255));
+        jBLogin.setText("Log in");
+        jBLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jBLoginActionPerformed(evt);
             }
         });
 
@@ -144,12 +144,12 @@ public class LoginFrom extends javax.swing.JFrame {
                         .addGroup(Fondo_NranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel3)
                             .addComponent(jLabel4)
-                            .addComponent(jTextField1)
-                            .addComponent(jPasswordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 255, Short.MAX_VALUE)))
+                            .addComponent(jTextUser)
+                            .addComponent(jPassF, javax.swing.GroupLayout.DEFAULT_SIZE, 255, Short.MAX_VALUE)))
                     .addGroup(Fondo_NranjaLayout.createSequentialGroup()
                         .addGap(83, 83, 83)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(67, Short.MAX_VALUE))
+                        .addComponent(jBLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(61, Short.MAX_VALUE))
         );
         Fondo_NranjaLayout.setVerticalGroup(
             Fondo_NranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -161,14 +161,14 @@ public class LoginFrom extends javax.swing.JFrame {
                 .addGap(9, 9, 9)
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextUser, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPassF, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(45, Short.MAX_VALUE))
+                .addComponent(jBLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(39, Short.MAX_VALUE))
         );
 
         Background.add(Fondo_Nranja, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, 380, 320));
@@ -187,13 +187,13 @@ public class LoginFrom extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextUserActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_jTextUserActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jBLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLoginActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_jBLoginActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         System.exit(0);
@@ -240,13 +240,13 @@ public class LoginFrom extends javax.swing.JFrame {
     private javax.swing.JPanel Fondo_Blanco;
     private javax.swing.JPanel Fondo_Nranja;
     private javax.swing.JLabel Logo;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jBLogin;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JPasswordField jPassF;
+    private javax.swing.JTextField jTextUser;
     // End of variables declaration//GEN-END:variables
 }
