@@ -18,7 +18,6 @@ public class consultas {
         String usuarioCorrecto = null;
         String passCorrecto = null;
     try {
-
         Connection cn = db.conectar();
         PreparedStatement pst = cn.prepareStatement("SELECT nombre, clave FROM usuarios");
         ResultSet rs = pst.executeQuery();
