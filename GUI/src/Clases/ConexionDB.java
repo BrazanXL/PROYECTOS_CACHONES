@@ -11,21 +11,25 @@ import javax.swing.JOptionPane;
  * @author rafael camargo
  */
 public class ConexionDB {
-    // Declaracion de conexion a MySQL
+    // Declaramos la conexion a mysql
     public static Connection con;
-    // Datos de conexion a red
+    // Declaramos los datos de conexion a la bd
     private static final String driver="com.mysql.jdbc.Driver";
     private static final String user="root";
-    private static final String pass="1001Server";
-    private static final String url="jdbc:mysql://127.0.0.1:3306/login?characterEncoding=utf8";
-    // funcion de conexion
-    public Connection connectar(){
-        con = null;
-        try{
-            con = (Connection) DriverManager.getConnection(url, user, pass);
-            if(con!=null){}
-        }catch(SQLException e){JOptionPane.showMessageDialog(null,"Error" +e.toString());}
-        return con;
+    private static final String pass="12345678";
+    private static final String url="jdbc:mysql://localhost:3306/login?characterEncoding=utf8";
+    // Funcion que va conectarse a mi bd de mysql
+    public Connection conectar(){
+      con = null;
+      try{
+          con = (Connection) DriverManager.getConnection(url, user, pass);
+          if(con!=null){
+          }
+      }
+      catch(SQLException e)
+      {
+          JOptionPane.showMessageDialog(null,"Error" + e.toString());
+      }
+      return con;
     }
-    
 }

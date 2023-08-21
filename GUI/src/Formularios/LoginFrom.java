@@ -1,12 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package Formularios;
+import Clases.consultas;
 
 /**
  *
- * @author KyB
+ * @author Bryan Pantoja
+ * @author Ismael Cajar
  */
 public class LoginFrom extends javax.swing.JFrame {
 
@@ -31,7 +29,7 @@ public class LoginFrom extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jTextUsuario = new javax.swing.JTextField();
+        jTextUser = new javax.swing.JTextField();
         jSeparator1 = new javax.swing.JSeparator();
         jIconUsuario = new javax.swing.JLabel();
         jTextPass = new javax.swing.JTextField();
@@ -60,11 +58,11 @@ public class LoginFrom extends javax.swing.JFrame {
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Usuario");
 
-        jTextUsuario.setBackground(new java.awt.Color(112, 145, 255));
-        jTextUsuario.setFont(new java.awt.Font("Lucida Console", 3, 14)); // NOI18N
-        jTextUsuario.setForeground(new java.awt.Color(255, 255, 255));
-        jTextUsuario.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextUsuario.setBorder(null);
+        jTextUser.setBackground(new java.awt.Color(112, 145, 255));
+        jTextUser.setFont(new java.awt.Font("Lucida Console", 3, 14)); // NOI18N
+        jTextUser.setForeground(new java.awt.Color(255, 255, 255));
+        jTextUser.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextUser.setBorder(null);
 
         jIconUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/userLabel.png"))); // NOI18N
 
@@ -113,7 +111,7 @@ public class LoginFrom extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jSeparator1)
-                            .addComponent(jTextUsuario)
+                            .addComponent(jTextUser)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, Short.MAX_VALUE))))
@@ -150,7 +148,7 @@ public class LoginFrom extends javax.swing.JFrame {
                 .addGap(14, 14, 14)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jIconUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextUser, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(3, 3, 3)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -180,6 +178,8 @@ public class LoginFrom extends javax.swing.JFrame {
 
     private void jLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jLoginActionPerformed
         // TODO add your handling code here:
+        consultas con = new consultas();
+        con.consultarUsuario(jTextUser.getText(), jTextPass.getText());
     }//GEN-LAST:event_jLoginActionPerformed
 
     private void ExitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExitButtonActionPerformed
@@ -234,6 +234,6 @@ public class LoginFrom extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTextField jTextPass;
-    private javax.swing.JTextField jTextUsuario;
+    private javax.swing.JTextField jTextUser;
     // End of variables declaration//GEN-END:variables
 }
