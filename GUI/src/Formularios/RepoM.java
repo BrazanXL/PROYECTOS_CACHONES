@@ -29,7 +29,6 @@ public class RepoM extends javax.swing.JFrame {
 
         ExitButton = new javax.swing.JButton();
         jLabelReporteM = new javax.swing.JLabel();
-        jLabelLogo = new javax.swing.JLabel();
         IDENTIFICACION_EQUIPO = new javax.swing.JLabel();
         jTextField_IDECL = new javax.swing.JTextField();
         IDENTIFICACION_USUARIO = new javax.swing.JLabel();
@@ -50,6 +49,7 @@ public class RepoM extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jButton1 = new javax.swing.JButton();
+        jLabelLogo = new javax.swing.JLabel();
         jLabelFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -71,9 +71,6 @@ public class RepoM extends javax.swing.JFrame {
         jLabelReporteM.setForeground(new java.awt.Color(255, 255, 255));
         jLabelReporteM.setText("Formato de mantenimiento 001");
         getContentPane().add(jLabelReporteM, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 40, -1, 30));
-
-        jLabelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/LOGO-removebg-preview.png"))); // NOI18N
-        getContentPane().add(jLabelLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 90, 70));
 
         IDENTIFICACION_EQUIPO.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         IDENTIFICACION_EQUIPO.setForeground(new java.awt.Color(255, 255, 255));
@@ -207,6 +204,9 @@ public class RepoM extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(102, 0, 255));
         jButton1.setText("Más opciones");
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 650, -1, -1));
+
+        jLabelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/LOGO_HT-removebg-preview.png"))); // NOI18N
+        getContentPane().add(jLabelLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, -1, -1));
 
         jLabelFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/fondo (1).jpg"))); // NOI18N
         getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 740, -1));
