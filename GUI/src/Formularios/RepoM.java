@@ -50,6 +50,7 @@ public class RepoM extends javax.swing.JFrame {
         jTextArea1 = new javax.swing.JTextArea();
         jButton1 = new javax.swing.JButton();
         jLabelLogo = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         jLabelFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -208,15 +209,14 @@ public class RepoM extends javax.swing.JFrame {
         jLabelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/LOGO_HT-removebg-preview.png"))); // NOI18N
         getContentPane().add(jLabelLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, -1, -1));
 
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/LOGO_FInal-removebg-preview.png"))); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 140, 110));
+
         jLabelFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/fondo (1).jpg"))); // NOI18N
         getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 740, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void ExitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExitButtonActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_ExitButtonActionPerformed
 
     private void jTextField_IDECLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_IDECLActionPerformed
         // TODO add your handling code here:
@@ -245,6 +245,10 @@ public class RepoM extends javax.swing.JFrame {
     private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox3ActionPerformed
+
+    private void ExitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExitButtonActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_ExitButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -295,6 +299,7 @@ public class RepoM extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBox3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabelFondo;
     private javax.swing.JLabel jLabelLogo;
     private javax.swing.JLabel jLabelReporteM;
