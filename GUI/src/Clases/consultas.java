@@ -8,31 +8,37 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 
 
 public class consultas {
-    public void consultarUsuario(String user, String pass){
-        // TODO add your handling code here:
-        ConexionDB db = new ConexionDB();
+    public void consultarUsuario(JTextField user, JPasswordField pass){
         // Se inicializa a null
-        String usuarioCorrecto = null;
-        String passCorrecto = null;
+        
     try {
-        Connection cf = db.conectar();
-        PreparedStatement pst = cf.prepareStatement("SELECT nombre, clave FROM Usuarios");
-        ResultSet rs = pst.executeQuery();
+        ResultSet rs = null;
+        PreparedStatement ps = null;
+        Clases.ConexionDB oCDB = new Clases.ConexionDB();
+        
+        String consulta="select * from Usuarios where usuarios.ingresoUsuario=(?) and usuarios.ingresoPass=(?);";
+        ps = oCDB.conectar().prepareStatement(consulta);
+        
+        String Pass =String.valueOf(pass.getPassword());
+        ps.setString(1, user.getText());
+        ps.setString(2, Pass);
+        
+        rs = ps.executeQuery();
+        
 
         if (rs.next()) {
-            usuarioCorrecto = rs.getString(1);
-            passCorrecto = rs.getString(2);
-        }
+            JOptionPane.showMessageDialog(null, "Login correcto Bienvenido " + user.getText());
 
-        if (user.equals(usuarioCorrecto) && pass.equals(passCorrecto)) {
-            JOptionPane.showMessageDialog(null, "Login correcto Bienvenido " + user);
-        } else if (!user.equals(usuarioCorrecto) || pass.equals(passCorrecto)) {
-
+        } else
+        {
             JOptionPane.showMessageDialog(null, "Usuario o contraseña incorrectos");
         }
+        
 
     } catch (Exception e) {
         JOptionPane.showMessageDialog(null, "Error " + e);

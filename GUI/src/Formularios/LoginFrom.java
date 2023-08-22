@@ -16,6 +16,9 @@ public class LoginFrom extends javax.swing.JFrame {
     public LoginFrom() {
         initComponents();
         this.setLocationRelativeTo(null);
+        
+        Clases.ConexionDB oCDB = new Clases.ConexionDB();
+        oCDB.conectar();
     }
     public Image getIconImage() {
         Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("Img/LOGO_FInal-removebg-preview.png"));
@@ -33,7 +36,7 @@ public class LoginFrom extends javax.swing.JFrame {
         Background = new javax.swing.JPanel();
         Fondo_Blanco = new javax.swing.JPanel();
         Logo = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
+        jBExit = new javax.swing.JButton();
         Fondo_Nranja = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -53,12 +56,12 @@ public class LoginFrom extends javax.swing.JFrame {
 
         Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/LOGO_FInal-removebg-preview.png"))); // NOI18N
 
-        jButton2.setBackground(new java.awt.Color(255, 102, 0));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setText("Exit");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        jBExit.setBackground(new java.awt.Color(255, 102, 0));
+        jBExit.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jBExit.setText("Exit");
+        jBExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                jBExitActionPerformed(evt);
             }
         });
 
@@ -70,7 +73,7 @@ public class LoginFrom extends javax.swing.JFrame {
                 .addContainerGap(114, Short.MAX_VALUE)
                 .addComponent(Logo)
                 .addGap(57, 57, 57)
-                .addComponent(jButton2))
+                .addComponent(jBExit))
         );
         Fondo_BlancoLayout.setVerticalGroup(
             Fondo_BlancoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -79,7 +82,7 @@ public class LoginFrom extends javax.swing.JFrame {
                 .addComponent(Logo, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(16, Short.MAX_VALUE))
             .addGroup(Fondo_BlancoLayout.createSequentialGroup()
-                .addComponent(jButton2)
+                .addComponent(jBExit)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -193,11 +196,13 @@ public class LoginFrom extends javax.swing.JFrame {
 
     private void jBLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLoginActionPerformed
         // TODO add your handling code here:
+        Clases.consultas oLogin = new Clases.consultas();
+        oLogin.consultarUsuario(jTextUser, jPassF);
     }//GEN-LAST:event_jBLoginActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jBExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBExitActionPerformed
         System.exit(0);
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_jBExitActionPerformed
 
     /**
      * @param args the command line arguments
@@ -240,8 +245,8 @@ public class LoginFrom extends javax.swing.JFrame {
     private javax.swing.JPanel Fondo_Blanco;
     private javax.swing.JPanel Fondo_Nranja;
     private javax.swing.JLabel Logo;
+    private javax.swing.JButton jBExit;
     private javax.swing.JButton jBLogin;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

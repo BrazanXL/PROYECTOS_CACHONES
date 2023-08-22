@@ -14,10 +14,10 @@ public class ConexionDB {
     // Declaramos la conexion a mysql
     public static Connection con;
     // Declaramos los datos de conexion a la bd
-    private static final String driver = "com.mysql.jdbc.Driver";
-    private static final String user = "root";
-    private static final String pass = "12345678";
-    private static final String url = "jdbc:mysql://localhost:3306/login?characterEncoding=utf8";
+    String driver = "com.mysql.jdbc.Driver";
+    String user = "root";
+    String pass = "";
+    String url = "jdbc:mysql://localhost:3306/login?characterEncoding=utf8";
     // Funcion que va conectarse a mi bd de mysql
     public Connection conectar(){
       con = null;
