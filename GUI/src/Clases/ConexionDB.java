@@ -14,10 +14,10 @@ public class ConexionDB {
     // Declaramos la conexion a mysql
     public static Connection con;
     // Declaramos los datos de conexion a la bd
-    String driver = "com.mysql.jdbc.Driver";
-    String user = "root";
-    String pass = "";
-    String url = "jdbc:mysql://localhost:3306/login?characterEncoding=utf8";
+    String driver = "com.mysql.cj.jdbc.Driver";
+    String user = "yirwvs91wd7961v21dx0";
+    String pass = "pscale_pw_EhK1sktrX9kgCIyzoVvsoS9lzZgEi6BCWe8xVUH6BR1";
+    String url = "jdbc:mysql://aws.connect.psdb.cloud/usuarios?sslMode=VERIFY_IDENTITY";
     // Funcion que va conectarse a mi bd de mysql
     public Connection conectar(){
       con = null;
