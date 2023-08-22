@@ -17,12 +17,12 @@ public class ConexionDB {
     String driver = "com.mysql.cj.jdbc.Driver";
     String user = "yirwvs91wd7961v21dx0";
     String pass = "pscale_pw_EhK1sktrX9kgCIyzoVvsoS9lzZgEi6BCWe8xVUH6BR1";
-    String url = "jdbc:mysql://aws.connect.psdb.cloud/usuarios?sslMode=VERIFY_IDENTITY";
+    String url = "jdbc:mysql://aws.connect.psdb.cloud/usuarios?sslMode=false";
     // Funcion que va conectarse a mi bd de mysql
     public Connection conectar(){
       con = null;
       try{
-          con = (Connection) DriverManager.getConnection(url, user, pass);
+          con = DriverManager.getConnection(url, user, pass);
           if(con!=null){
           }
       }
