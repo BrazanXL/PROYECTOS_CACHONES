@@ -1,0 +1,13 @@
+E:\Repos\Software\Software\bin\Debug\Software.exe.config
+E:\Repos\Software\Software\bin\Debug\Software.exe
+E:\Repos\Software\Software\bin\Debug\Software.pdb
+E:\Repos\Software\Software\obj\Debug\Software.csproj.AssemblyReference.cache
+E:\Repos\Software\Software\obj\Debug\Software.Maestro.resources
+E:\Repos\Software\Software\obj\Debug\Software.Properties.Resources.resources
+E:\Repos\Software\Software\obj\Debug\Software.csproj.GenerateResource.cache
+E:\Repos\Software\Software\obj\Debug\Software.csproj.CoreCompileInputs.cache
+E:\Repos\Software\Software\obj\Debug\Software.exe
+E:\Repos\Software\Software\obj\Debug\Software.pdb
+E:\Repos\Software\Software\bin\Debug\es\Software.resources.dll
+E:\Repos\Software\Software\obj\Debug\Software.Maestro.es.resources
+E:\Repos\Software\Software\obj\Debug\es\Software.resources.dll
