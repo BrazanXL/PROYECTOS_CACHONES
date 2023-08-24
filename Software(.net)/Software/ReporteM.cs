@@ -16,5 +16,10 @@ namespace Software
         {
             InitializeComponent();
         }
+
+        private void ReporteM_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
