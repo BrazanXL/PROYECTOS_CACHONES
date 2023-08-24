@@ -72,6 +72,9 @@
     <Compile Include="SubReporteM\TProcesos.Designer.cs">
       <DependentUpon>TProcesos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CEO.resx">
+      <DependentUpon>CEO.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Maestro.es.resx">
       <DependentUpon>Maestro.cs</DependentUpon>
     </EmbeddedResource>
