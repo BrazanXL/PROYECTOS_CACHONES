@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Software.SubReporteM;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,14 +13,23 @@ namespace Software
 {
     public partial class ReporteM : Form
     {
+        TProcesos vTP;
         public ReporteM()
         {
             InitializeComponent();
+            vTP = new TProcesos();
         }
 
         private void ReporteM_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            vTP.referenciar_vRM(this);
+            vTP.Visible = true;
         }
     }
 }

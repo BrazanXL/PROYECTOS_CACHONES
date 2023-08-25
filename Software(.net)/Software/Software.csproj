@@ -93,6 +93,9 @@
     <EmbeddedResource Include="ReporteM.resx">
       <DependentUpon>ReporteM.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SubReporteM\TProcesos.resx">
+      <DependentUpon>TProcesos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
