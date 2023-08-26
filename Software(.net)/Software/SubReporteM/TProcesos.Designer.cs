@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TProcesos));
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -106,7 +107,7 @@
             this.BVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BVolver.Font = new System.Drawing.Font("RussellSquare", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BVolver.ForeColor = System.Drawing.Color.White;
-            this.BVolver.Location = new System.Drawing.Point(102, 141);
+            this.BVolver.Location = new System.Drawing.Point(12, 141);
             this.BVolver.Name = "BVolver";
             this.BVolver.Size = new System.Drawing.Size(75, 22);
             this.BVolver.TabIndex = 6;
@@ -120,6 +121,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(456, 175);
+            this.ControlBox = false;
             this.Controls.Add(this.BVolver);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -128,6 +130,9 @@
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "TProcesos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TProcesos";

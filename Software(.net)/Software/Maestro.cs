@@ -14,15 +14,18 @@ namespace Software
     public partial class Maestro : Form
     {
         ReporteM vRM;
+        CEO ceo;
         public Maestro()
         {
             InitializeComponent();
             vRM = new ReporteM();
+            ceo = new CEO();
         }
         private void BLogin_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            vRM.Visible = true;
+            //vRM.Visible = true;
+            ceo.Visible = true;
         }
     }
 }

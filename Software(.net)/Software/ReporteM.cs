@@ -27,7 +27,7 @@ namespace Software
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
+            this.Visible = true;
             vTP.referenciar_vRM(this);
             vTP.Visible = true;
         }

@@ -20,7 +20,7 @@ namespace Software.SubReporteM
 
         public void referenciar_vRM(ReporteM vRM) 
         {
-            this.vRM = vRM;
+           this.vRM = vRM;
         }
 
         private void BVolver_Click(object sender, EventArgs e)

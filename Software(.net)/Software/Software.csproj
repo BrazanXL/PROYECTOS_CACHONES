@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,6 +52,12 @@
     </Compile>
     <Compile Include="CEO.Designer.cs">
       <DependentUpon>CEO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearCliente.Designer.cs">
+      <DependentUpon>CrearCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Maestro.cs">
       <SubType>Form</SubType>
@@ -74,6 +81,9 @@
     </Compile>
     <EmbeddedResource Include="CEO.resx">
       <DependentUpon>CEO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearCliente.resx">
+      <DependentUpon>CrearCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maestro.es.resx">
       <DependentUpon>Maestro.cs</DependentUpon>

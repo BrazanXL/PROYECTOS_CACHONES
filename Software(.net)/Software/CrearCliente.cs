@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Software
 {
-    public partial class CEO : Form
+    public partial class CrearCliente : Form
     {
-        public CEO()
+        public CrearCliente()
         {
             InitializeComponent();
-        }
-
-        private void CEO_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
