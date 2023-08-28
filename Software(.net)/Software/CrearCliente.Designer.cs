@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrearCliente));
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,7 +45,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Crear Cliente";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -108,6 +109,7 @@
             this.BVolver.TabIndex = 7;
             this.BVolver.Text = "Volver";
             this.BVolver.UseVisualStyleBackColor = false;
+            this.BVolver.Click += new System.EventHandler(this.BVolver_Click);
             // 
             // CrearCliente
             // 
@@ -122,8 +124,14 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(607, 338);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(607, 338);
             this.Name = "CrearCliente";
             this.Text = "CrearCliente";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CrearCliente_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

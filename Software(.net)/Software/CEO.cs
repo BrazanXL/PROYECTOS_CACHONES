@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.WebRequestMethods;
 
 namespace Software
 {
     public partial class CEO : Form
     {
+        CrearCliente CC;
         public CEO()
         {
             InitializeComponent();
@@ -20,6 +22,13 @@ namespace Software
         private void CEO_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = true;
+            CC.referenciar_CC(this);
+            CC.Visible = true;
         }
     }
 }
