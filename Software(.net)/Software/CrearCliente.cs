@@ -45,7 +45,14 @@ namespace Software
                         {
                             if (txtPass.Text != "")
                             {
-
+                                if (txtPassconf.Text == txtPass.Text)
+                                {
+                                    MessageBox.Show("Se ha registrado con exito", "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Porfavor verifique la contaseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
                             }
                             else {
                                 MessageBox.Show("Porfavor ingrese la contaseña para el cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);

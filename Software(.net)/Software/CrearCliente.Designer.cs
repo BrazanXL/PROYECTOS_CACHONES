@@ -40,6 +40,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtPassconf = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnCrearC
@@ -126,7 +128,7 @@
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(280, 13);
+            this.txtPass.Location = new System.Drawing.Point(316, 10);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(100, 20);
@@ -141,11 +143,31 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Contraseña";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(213, 38);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(97, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Repetir contraseña";
+            // 
+            // txtPassconf
+            // 
+            this.txtPassconf.Location = new System.Drawing.Point(316, 32);
+            this.txtPassconf.Name = "txtPassconf";
+            this.txtPassconf.PasswordChar = '*';
+            this.txtPassconf.Size = new System.Drawing.Size(100, 20);
+            this.txtPassconf.TabIndex = 11;
+            // 
             // CrearCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(591, 299);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtPassconf);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.label4);
@@ -157,12 +179,15 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCrearC);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(607, 338);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(607, 338);
             this.Name = "CrearCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrearCliente";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CrearCliente_FormClosing);
             this.ResumeLayout(false);
@@ -183,5 +208,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtPassconf;
     }
 }
