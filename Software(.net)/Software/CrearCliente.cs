@@ -47,7 +47,16 @@ namespace Software
                             {
                                 if (txtPassconf.Text == txtPass.Text)
                                 {
+                                    String IDC = txtIDCliente.Text;
+                                    String NameC = txtNameClient.Text;
+                                    String NitC = txtNitClient.Text;
+                                    String PassConf = txtPassconf.Text;
                                     MessageBox.Show("Se ha registrado con exito", "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    txtIDCliente.Text = "";
+                                    txtNameClient.Text = "";
+                                    txtNitClient.Text = "";
+                                    txtPass.Text = "";
+                                    txtPassconf.Text = "";
                                 }
                                 else
                                 {
