@@ -43,3 +43,4 @@ C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Soft
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\es\Software.resources.dll
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.exe
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources

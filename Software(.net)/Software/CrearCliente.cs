@@ -12,26 +12,58 @@ namespace Software
 {
     public partial class CrearCliente : Form
     {
-        CEO ceo;
+        CEO Vceo;
         public CrearCliente()
         {
             InitializeComponent();
 
         }
-        public void referenciar_CC(CEO ceo)
+        public void referenciar_CC(CEO Vceo)
         {
-            this.ceo = ceo;
+            this.Vceo = Vceo;
         }
 
         private void CrearCliente_FormClosing(object sender, FormClosingEventArgs e)
         {
-            ceo.Visible = true;
+            Application.Exit();
         }
 
         private void BVolver_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            ceo.Visible = true;
+            Vceo.Visible = true;
+        }
+
+        private void btnCrearC_Click(object sender, EventArgs e)
+        {
+            try {
+                if (txtIDCliente.Text != "")
+                {
+                    if (txtNameClient.Text != "") 
+                    {
+                        if (txtNitClient.Text != "")
+                        {
+                            if (txtPass.Text != "")
+                            {
+
+                            }
+                            else {
+                                MessageBox.Show("Porfavor ingrese la contaseña para el cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                        else {
+                            MessageBox.Show("Porfavor ingrese el nit del cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    } 
+                    else {
+                        MessageBox.Show("Porfavor ingrese el nombre del cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); 
+                    }
+                }else {
+                    MessageBox.Show("Porfavor ingrese la ID del cliente","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                } 
+            } catch(Exception error) {
+                MessageBox.Show("Error: "+ error);
+            }
         }
     }
 }

@@ -31,7 +31,7 @@ namespace Software.SubReporteM
 
         private void TProcesos_FormClosing(object sender, FormClosingEventArgs e)
         {
-            vRM.Visible = true;
+            Application.Exit();
         }
     }
 }

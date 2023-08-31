@@ -17,6 +17,7 @@ namespace Software
         public CEO()
         {
             InitializeComponent();
+            CC = new CrearCliente();
         }
 
         private void CEO_FormClosing(object sender, FormClosingEventArgs e)
