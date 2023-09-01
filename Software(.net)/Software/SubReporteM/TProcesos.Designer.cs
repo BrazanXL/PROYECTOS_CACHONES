@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.BVolver = new System.Windows.Forms.Button();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -44,9 +45,9 @@
             this.checkBox1.Location = new System.Drawing.Point(13, 13);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.Size = new System.Drawing.Size(95, 17);
             this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.Text = "Mantenimiento";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
@@ -55,9 +56,9 @@
             this.checkBox2.Location = new System.Drawing.Point(13, 42);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 17);
+            this.checkBox2.Size = new System.Drawing.Size(67, 17);
             this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.Text = "Revision";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
@@ -66,9 +67,9 @@
             this.checkBox3.Location = new System.Drawing.Point(13, 71);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 17);
+            this.checkBox3.Size = new System.Drawing.Size(81, 17);
             this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "checkBox3";
+            this.checkBox3.Text = "Reparación";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox4
@@ -77,9 +78,9 @@
             this.checkBox4.Location = new System.Drawing.Point(13, 100);
             this.checkBox4.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(80, 17);
+            this.checkBox4.Size = new System.Drawing.Size(79, 17);
             this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "checkBox4";
+            this.checkBox4.Text = "Reemplazo";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -107,7 +108,7 @@
             this.BVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BVolver.Font = new System.Drawing.Font("RussellSquare", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BVolver.ForeColor = System.Drawing.Color.White;
-            this.BVolver.Location = new System.Drawing.Point(12, 141);
+            this.BVolver.Location = new System.Drawing.Point(12, 157);
             this.BVolver.Name = "BVolver";
             this.BVolver.Size = new System.Drawing.Size(75, 22);
             this.BVolver.TabIndex = 6;
@@ -115,13 +116,24 @@
             this.BVolver.UseVisualStyleBackColor = false;
             this.BVolver.Click += new System.EventHandler(this.BVolver_Click);
             // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(13, 127);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(147, 17);
+            this.checkBox5.TabIndex = 7;
+            this.checkBox5.Text = "Mantenimento Preventivo";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
             // TProcesos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(456, 175);
+            this.ClientSize = new System.Drawing.Size(456, 191);
             this.ControlBox = false;
+            this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.BVolver);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -151,5 +163,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button BVolver;
+        private System.Windows.Forms.CheckBox checkBox5;
     }
 }
