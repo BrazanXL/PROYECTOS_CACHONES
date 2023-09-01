@@ -33,8 +33,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.BLogin = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.UserLogin = new System.Windows.Forms.TextBox();
+            this.PassLogin = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -72,15 +72,15 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label3.Name = "label3";
             // 
-            // textBox1
+            // UserLogin
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.UserLogin, "UserLogin");
+            this.UserLogin.Name = "UserLogin";
             // 
-            // textBox2
+            // PassLogin
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            resources.ApplyResources(this.PassLogin, "PassLogin");
+            this.PassLogin.Name = "PassLogin";
             // 
             // pictureBox1
             // 
@@ -94,8 +94,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PassLogin);
+            this.Controls.Add(this.UserLogin);
             this.Controls.Add(this.BLogin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -116,8 +116,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BLogin;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox UserLogin;
+        private System.Windows.Forms.TextBox PassLogin;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -246,61 +246,61 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="UserLogin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Papyrus, 8.25pt, style=Bold, Italic</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="UserLogin.Location" type="System.Drawing.Point, System.Drawing">
     <value>170, 317</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="UserLogin.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 25</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="UserLogin.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;UserLogin.Name" xml:space="preserve">
+    <value>UserLogin</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;UserLogin.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;UserLogin.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;UserLogin.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="PassLogin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Papyrus, 8.25pt, style=Bold, Italic</value>
   </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="PassLogin.Location" type="System.Drawing.Point, System.Drawing">
     <value>170, 392</value>
   </data>
-  <data name="textBox2.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+  <data name="PassLogin.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value>^</value>
   </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="PassLogin.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 25</value>
   </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="PassLogin.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
+  <data name="&gt;&gt;PassLogin.Name" xml:space="preserve">
+    <value>PassLogin</value>
   </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;PassLogin.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PassLogin.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PassLogin.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIkAAAB4CAYAAADG6tF1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAPfhJREFUeF7tfQd0XcW1NjWBEEIzxeBecQc7tJDwkp8kgLEtqzeX0AI8cJcNBBtI
+        wQAADsEBuJFr7QAAPfhJREFUeF7tfQd0XcW1NjWBEEIzxeBecQc7tJDwkp8kgLEtqzeX0AI8cJcNBBtI
         gEB4DxJim4QWwIX6ICEBY2yrd9kqtzd1Xemqt9vbzL+/mXMkNxVj2WDQXmuvc8+5c6bs+WbvPXOmnDZM
         fRPnVecwV/VI1lp5A2swPcBqincwW5GGWQoamTEvyA1ZnBtSifdJ1u/lXJdG13S6ZnOmzwowc76D2Qq1
         rFrzMavT/YE7bLGsreom1t4wlvOmHypJDdOpQpzz77G2ttHBpppfe2pN613lZVudpsJdbmOu2WPIbPPr
