@@ -79,6 +79,7 @@ namespace Software
                 } 
             } catch(Exception error) {
                 MessageBox.Show("Error: "+ error);
+                logger.RegistrarError("Se Capturo el sigiente error: " + error);
             }
         }
     }
