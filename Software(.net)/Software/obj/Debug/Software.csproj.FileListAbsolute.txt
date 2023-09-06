@@ -45,3 +45,10 @@ C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Soft
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.dll
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Memory.dll
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Buffers.dll
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
