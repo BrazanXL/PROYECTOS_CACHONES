@@ -45,6 +45,7 @@ C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Soft
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
+<<<<<<< Updated upstream
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.dll
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Memory.dll
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Threading.Tasks.Extensions.dll
@@ -52,3 +53,22 @@ C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Deb
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Buffers.dll
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
+=======
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.exe.config
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.exe
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.pdb
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\es\Software.resources.dll
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.AssemblyReference.cache
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CEO.resources
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Maestro.resources
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Properties.Resources.resources
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.ReporteM.resources
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.SubReporteM.TProcesos.resources
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Maestro.es.resources
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.GenerateResource.cache
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CoreCompileInputs.cache
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\es\Software.resources.dll
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.exe
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
+>>>>>>> Stashed changes
