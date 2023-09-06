@@ -72,3 +72,9 @@ C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\D
 C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.exe
 C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
 >>>>>>> Stashed changes
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Memory.dll
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Buffers.dll
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
