@@ -122,6 +122,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CEO";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CEO_FormClosing);
+            this.Load += new System.EventHandler(this.CEO_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,6 +31,13 @@ namespace Software
             this.Visible = true;
             CC.referenciar_CC(this);
             CC.Visible = true;
+        }
+
+        private void CEO_Load(object sender, EventArgs e)
+        {
+            string consulta = "";
+            MySqlDataAdapter ad = new MySqlDataAdapter(consulta,connection);
+
         }
     }
 }
