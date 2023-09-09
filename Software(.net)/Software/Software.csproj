@@ -58,6 +58,7 @@
     <Compile Include="CEO.Designer.cs">
       <DependentUpon>CEO.cs</DependentUpon>
     </Compile>
+    <Compile Include="Connet.cs" />
     <Compile Include="CrearCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +125,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
