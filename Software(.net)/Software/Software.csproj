@@ -58,7 +58,6 @@
     <Compile Include="CEO.Designer.cs">
       <DependentUpon>CEO.cs</DependentUpon>
     </Compile>
-    <Compile Include="Connet.cs" />
     <Compile Include="CrearCliente.cs">
       <SubType>Form</SubType>
     </Compile>

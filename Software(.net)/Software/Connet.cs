@@ -12,10 +12,10 @@ namespace Software
         string SDB = @"server=bxymyfyxvxkhdlsf4tpg-mysql.services.clever-cloud.com;user id=uunvywmqw6xpltvy;password=eI54i3NKQkrF7bjSsJgV;database=bxymyfyxvxkhdlsf4tpg;";
         public MySqlConnection Connection = new MySqlConnection();
 
-        public ConectarDB() 
-        {
-            Connection.ConnectionString = SDB;
-        }
+        //public ConectarDB() 
+        //{
+        //    Connection.ConnectionString = SDB;
+        //}
 
         public void abrir() {
             try {

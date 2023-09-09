@@ -46,7 +46,6 @@ C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Soft
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.dll
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Memory.dll
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Threading.Tasks.Extensions.dll
@@ -79,6 +78,10 @@ C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\D
 C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Buffers.dll
 C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
 C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
-=======
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.SuggestedBindingRedirects.cache
->>>>>>> Stashed changes
+C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Memory.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Buffers.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
+C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete

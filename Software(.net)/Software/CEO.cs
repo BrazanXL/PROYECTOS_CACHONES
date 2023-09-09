@@ -35,8 +35,8 @@ namespace Software
 
         private void CEO_Load(object sender, EventArgs e)
         {
-            string consulta = "";
-            MySqlDataAdapter ad = new MySqlDataAdapter(consulta,connection);
+            //string consulta = "";
+            //MySqlDataAdapter ad = new MySqlDataAdapter(consulta,connection);
 
         }
     }
