@@ -58,6 +58,7 @@
     <Compile Include="CEO.Designer.cs">
       <DependentUpon>CEO.cs</DependentUpon>
     </Compile>
+    <Compile Include="Consulta_CEO.cs" />
     <Compile Include="CrearCliente.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -14,13 +14,18 @@ namespace Software
 {
     public partial class CEO : Form
     {
+        Consulta_CEO obj_cCEO = new Consulta_CEO();
         CrearCliente CC;
         public CEO()
         {
             InitializeComponent();
+            LlenarData();
             CC = new CrearCliente();
         }
-
+        private void LlenarData() 
+        {
+            dgv_Clientes.DataSource = obj_cCEO.ListarCliente();
+        }
         private void CEO_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
@@ -28,9 +33,11 @@ namespace Software
 
         private void button1_Click(object sender, EventArgs e)
         {
+            LlenarData();
             this.Visible = true;
             CC.referenciar_CC(this);
             CC.Visible = true;
+            
         }
 
         private void CEO_Load(object sender, EventArgs e)

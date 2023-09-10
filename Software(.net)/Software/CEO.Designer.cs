@@ -33,11 +33,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_Clientes = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.dgv_Plantillas = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Clientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Plantillas)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -52,7 +52,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(94, 415);
+            this.button2.Location = new System.Drawing.Point(305, 415);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(337, 415);
+            this.button3.Location = new System.Drawing.Point(695, 415);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
@@ -70,20 +70,20 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(256, 415);
+            this.button4.Location = new System.Drawing.Point(386, 415);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 3;
             this.button4.Text = "Cronograma";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgv_Clientes
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 34);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(157, 375);
-            this.dataGridView1.TabIndex = 5;
+            this.dgv_Clientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Clientes.Location = new System.Drawing.Point(12, 34);
+            this.dgv_Clientes.Name = "dgv_Clientes";
+            this.dgv_Clientes.Size = new System.Drawing.Size(368, 375);
+            this.dgv_Clientes.TabIndex = 5;
             // 
             // label1
             // 
@@ -94,22 +94,22 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Lista de Clientes";
             // 
-            // dataGridView2
+            // dgv_Plantillas
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(175, 34);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView2.TabIndex = 7;
+            this.dgv_Plantillas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Plantillas.Location = new System.Drawing.Point(386, 34);
+            this.dgv_Plantillas.Name = "dgv_Plantillas";
+            this.dgv_Plantillas.Size = new System.Drawing.Size(384, 150);
+            this.dgv_Plantillas.TabIndex = 7;
             // 
             // CEO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 450);
-            this.Controls.Add(this.dataGridView2);
+            this.ClientSize = new System.Drawing.Size(782, 450);
+            this.Controls.Add(this.dgv_Plantillas);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_Clientes);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -123,8 +123,8 @@
             this.Text = "CEO";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CEO_FormClosing);
             this.Load += new System.EventHandler(this.CEO_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Clientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Plantillas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,8 +136,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_Clientes;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dgv_Plantillas;
     }
 }
