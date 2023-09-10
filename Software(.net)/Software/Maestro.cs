@@ -17,8 +17,8 @@ namespace Software
     {
         ReporteM vRM;
         CEO ceo;
-        string userLogin;
-        string userPass;
+        //string userLogin;
+        //string userPass;
         MySqlConnection connection = new MySqlConnection();
         MySqlCommand command = new MySqlCommand();
         public Maestro()
