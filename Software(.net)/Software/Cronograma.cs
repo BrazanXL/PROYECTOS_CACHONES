@@ -26,8 +26,8 @@ namespace Software
             for (int f=1;f<=96;f++) 
             {
                 dataGridView1.Rows.Add();
-                CargarFecha();
             }
+            CargarFecha();
         }
 
         private void CargarFecha()
@@ -47,12 +47,28 @@ namespace Software
                 }
                 archivo.Close();
             }
+            StreamReader archivo2 =new StreamReader(fecha);
+            int x = 0;
+            while (!archivo2.EndOfStream) {
+                string linea1 = archivo2.ReadLine();
+                string linea2 = archivo2.ReadLine();
+                dataGridView1.Rows[x].Cells[0].Value = linea1;
+                dataGridView1.Rows[x].Cells[1].Value = linea2;
+                x++;
+
+            }
+            archivo2.Close();
         }
 
         private void Volver_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Vceo.Visible = true;
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            CargarFecha();
         }
     }
 }
