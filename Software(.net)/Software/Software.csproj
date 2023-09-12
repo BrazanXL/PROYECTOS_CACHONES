@@ -82,9 +82,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReporteM.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="ReporteM.Designer.cs">
       <DependentUpon>ReporteM.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="SubReporteM\TProcesos.cs">
       <SubType>Form</SubType>
@@ -118,6 +120,7 @@
     </Compile>
     <EmbeddedResource Include="ReporteM.resx">
       <DependentUpon>ReporteM.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="SubReporteM\TProcesos.resx">
       <DependentUpon>TProcesos.cs</DependentUpon>

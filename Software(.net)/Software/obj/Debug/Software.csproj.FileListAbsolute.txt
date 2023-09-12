@@ -86,3 +86,30 @@ C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Soft
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Cronograma.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.resx
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.cs
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.Designer.cs
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.exe.config
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.exe
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.pdb
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\es\Software.resources.dll
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Memory.dll
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Buffers.dll
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.AssemblyReference.cache
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CEO.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Cronograma.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Maestro.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Properties.Resources.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.ReporteM.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.SubReporteM.TProcesos.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Maestro.es.resources
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.GenerateResource.cache
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CoreCompileInputs.cache
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\es\Software.resources.dll
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.exe
+D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
