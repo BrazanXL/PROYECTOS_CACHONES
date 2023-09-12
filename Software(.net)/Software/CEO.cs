@@ -51,6 +51,7 @@ namespace Software
 
         private void btn_Crono_Click(object sender, EventArgs e)
         {
+            crono.referenciar_Cg(this);
             crono.Visible = true;
         }
     }
