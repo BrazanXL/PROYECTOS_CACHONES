@@ -16,10 +16,12 @@ namespace Software
     {
         Consulta_CEO obj_cCEO = new Consulta_CEO();
         CrearCliente CC;
+        Cronograma crono;
         public CEO()
         {
             InitializeComponent();
             LlenarData();
+            crono = new Cronograma();
             CC = new CrearCliente();
         }
         private void LlenarData() 
@@ -45,6 +47,11 @@ namespace Software
             //string consulta = "";
             //MySqlDataAdapter ad = new MySqlDataAdapter(consulta,connection);
 
+        }
+
+        private void btn_Crono_Click(object sender, EventArgs e)
+        {
+            crono.Visible = true;
         }
     }
 }

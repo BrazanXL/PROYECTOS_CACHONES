@@ -32,7 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_Crono = new System.Windows.Forms.Button();
             this.dgv_Clientes = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.dgv_Plantillas = new System.Windows.Forms.DataGridView();
@@ -68,14 +68,15 @@
             this.button3.Text = "Plantillas";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btn_Crono
             // 
-            this.button4.Location = new System.Drawing.Point(386, 415);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Cronograma";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_Crono.Location = new System.Drawing.Point(386, 415);
+            this.btn_Crono.Name = "btn_Crono";
+            this.btn_Crono.Size = new System.Drawing.Size(75, 23);
+            this.btn_Crono.TabIndex = 3;
+            this.btn_Crono.Text = "Cronograma";
+            this.btn_Crono.UseVisualStyleBackColor = true;
+            this.btn_Crono.Click += new System.EventHandler(this.btn_Crono_Click);
             // 
             // dgv_Clientes
             // 
@@ -110,7 +111,7 @@
             this.Controls.Add(this.dgv_Plantillas);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgv_Clientes);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btn_Crono);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -135,7 +136,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_Crono;
         private System.Windows.Forms.DataGridView dgv_Clientes;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgv_Plantillas;

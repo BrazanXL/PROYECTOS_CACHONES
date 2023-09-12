@@ -15,7 +15,11 @@ namespace Software
         //añadirCliente
         //borrarCliente
         //editarCliente
-        //listarDGV
+        //añadirPlantillas
+        //borrarPlantillas
+
+
+        //listarDGV_Clientes
         public DataTable ListarCliente() 
         {
             DataTable table = new DataTable();
@@ -28,7 +32,19 @@ namespace Software
             resultado.Close();
             connection.Close();
             return table;
+        }
+        //listarDGV_Plantillas*Cliente
+        public DataTable ListarPlantillasXCliente() 
+        {
+            DataTable table = new DataTable();
+            connection.Open();
+            MySqlCommand command = new MySqlCommand("select archivo from Plantillas", connection);
+            MySqlDataReader resultado_P = command.ExecuteReader();
 
+            if (resultado_P.HasRows) table.Load(resultado_P);
+            resultado_P.Close();
+            connection.Close();
+            return table;
         }
     }
 }
