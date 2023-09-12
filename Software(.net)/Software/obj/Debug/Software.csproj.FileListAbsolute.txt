@@ -85,3 +85,4 @@ C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Soft
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Buffers.dll
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
 C:\Users\rafae\OneDrive\Documentos\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Cronograma.resources
