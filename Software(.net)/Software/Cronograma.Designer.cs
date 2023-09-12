@@ -28,13 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.SuspendLayout();
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(39, 13);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 0;
             // 
             // Cronograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.monthCalendar1);
             this.MaximizeBox = false;
             this.Name = "Cronograma";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -44,5 +52,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }
