@@ -106,6 +106,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Maestro";
+            this.Load += new System.EventHandler(this.Maestro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
