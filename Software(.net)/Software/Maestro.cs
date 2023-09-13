@@ -89,5 +89,14 @@ namespace Software
             command.Dispose();
             connection.Close();
         }
+
+        private void PassLogin_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode==Keys.Enter)
+            {
+                // Trigger the click event of the login button
+                BLogin_Click(sender, e);
+            }
+        }
     }
 }

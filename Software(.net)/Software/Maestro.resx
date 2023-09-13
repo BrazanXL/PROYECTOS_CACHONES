@@ -193,7 +193,7 @@
     <value>Popup</value>
   </data>
   <data name="BLogin.Font" type="System.Drawing.Font, System.Drawing">
-    <value>RussellSquare, 11.9999981pt, style=Bold, Italic</value>
+    <value>Microsoft Sans Serif, 11.9999981pt, style=Bold, Italic</value>
   </data>
   <data name="BLogin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -262,13 +262,13 @@
     <value>True</value>
   </metadata>
   <data name="UserLogin.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Papyrus, 8.25pt, style=Bold, Italic</value>
+    <value>Segoe MDL2 Assets, 14.25pt, style=Bold</value>
   </data>
   <data name="UserLogin.Location" type="System.Drawing.Point, System.Drawing">
     <value>170, 317</value>
   </data>
   <data name="UserLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 25</value>
+    <value>182, 26</value>
   </data>
   <data name="UserLogin.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -321,7 +321,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIkAAAB4CAYAAADG6tF1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAPfhJREFUeF7tfQd0XcW1NjWBEEIzxeBecQc7tJDwkp8kgLEtqzeX0AI8cJcNBBtI
+        vQAADr0BR/uQrQAAPfhJREFUeF7tfQd0XcW1NjWBEEIzxeBecQc7tJDwkp8kgLEtqzeX0AI8cJcNBBtI
         gEB4DxJim4QWwIX6ICEBY2yrd9kqtzd1Xemqt9vbzL+/mXMkNxVj2WDQXmuvc8+5c6bs+WbvPXOmnDZM
         fRPnVecwV/VI1lp5A2swPcBqincwW5GGWQoamTEvyA1ZnBtSifdJ1u/lXJdG13S6ZnOmzwowc76D2Qq1
         rFrzMavT/YE7bLGsreom1t4wlvOmHypJDdOpQpzz77G2ttHBpppfe2pN613lZVudpsJdbmOu2WPIbPPr

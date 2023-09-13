@@ -113,6 +113,37 @@ D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Softw
 D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
 D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.exe
 D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
+<<<<<<< Updated upstream
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.resx
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.cs
 C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.Designer.cs
+=======
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.resx
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.cs
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.Designer.cs
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.exe.config
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.exe
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\Software.pdb
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\es\Software.resources.dll
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Memory.dll
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Numerics.Vectors.dll
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\System.Buffers.dll
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\MySql.Data.xml
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.AssemblyReference.cache
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.SuggestedBindingRedirects.cache
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CEO.resources
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.CrearCliente.resources
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Cronograma.resources
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Maestro.resources
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Properties.Resources.resources
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.ReporteM.resources
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.SubReporteM.TProcesos.resources
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Maestro.es.resources
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.GenerateResource.cache
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CoreCompileInputs.cache
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\es\Software.resources.dll
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.exe
+E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
+>>>>>>> Stashed changes

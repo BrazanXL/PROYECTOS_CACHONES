@@ -57,6 +57,7 @@ namespace Software
                                     txtNitClient.Text = "";
                                     txtPass.Text = "";
                                     txtPassconf.Text = "";
+
                                 }
                                 else
                                 {
@@ -81,6 +82,11 @@ namespace Software
                 MessageBox.Show("Error: "+ error);
                 logger.RegistrarError("Se Capturo el sigiente error: " + error);
             }
+        }
+
+        private void CrearCliente_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

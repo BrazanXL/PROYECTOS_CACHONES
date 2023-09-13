@@ -107,7 +107,7 @@
             this.BVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BVolver.FlatAppearance.BorderSize = 0;
             this.BVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BVolver.Font = new System.Drawing.Font("RussellSquare", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BVolver.ForeColor = System.Drawing.Color.White;
             this.BVolver.Location = new System.Drawing.Point(504, 265);
             this.BVolver.Name = "BVolver";
@@ -190,6 +190,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrearCliente";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CrearCliente_FormClosing);
+            this.Load += new System.EventHandler(this.CrearCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

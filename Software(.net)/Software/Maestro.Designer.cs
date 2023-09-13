@@ -81,6 +81,8 @@
             // 
             resources.ApplyResources(this.PassLogin, "PassLogin");
             this.PassLogin.Name = "PassLogin";
+            this.PassLogin.UseSystemPasswordChar = true;
+            this.PassLogin.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PassLogin_KeyDown);
             // 
             // pictureBox1
             // 
