@@ -13,9 +13,13 @@ namespace Software
         MySqlConnection connection = new MySqlConnection(@"server=bxymyfyxvxkhdlsf4tpg-mysql.services.clever-cloud.com;user id=uunvywmqw6xpltvy;password=eI54i3NKQkrF7bjSsJgV;database=bxymyfyxvxkhdlsf4tpg;");
 
         //añadirCliente
+
         //borrarCliente
+
         //editarCliente
+
         //añadirPlantillas
+
         //borrarPlantillas
 
 
