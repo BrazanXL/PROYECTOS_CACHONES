@@ -47,7 +47,7 @@
             // 
             // Volver
             // 
-            this.Volver.Location = new System.Drawing.Point(747, 455);
+            this.Volver.Location = new System.Drawing.Point(857, 455);
             this.Volver.Name = "Volver";
             this.Volver.Size = new System.Drawing.Size(75, 23);
             this.Volver.TabIndex = 2;
@@ -59,7 +59,7 @@
             // 
             this.Ltxt_Fecha.AutoSize = true;
             this.Ltxt_Fecha.Font = new System.Drawing.Font("Yu Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ltxt_Fecha.Location = new System.Drawing.Point(273, 271);
+            this.Ltxt_Fecha.Location = new System.Drawing.Point(364, 271);
             this.Ltxt_Fecha.Name = "Ltxt_Fecha";
             this.Ltxt_Fecha.Size = new System.Drawing.Size(47, 16);
             this.Ltxt_Fecha.TabIndex = 3;
@@ -73,7 +73,7 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Hora,
             this.Actividad});
-            this.dataGridView1.Location = new System.Drawing.Point(257, 18);
+            this.dataGridView1.Location = new System.Drawing.Point(367, 18);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(565, 250);
             this.dataGridView1.TabIndex = 4;
@@ -94,7 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(841, 496);
+            this.ClientSize = new System.Drawing.Size(944, 496);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Ltxt_Fecha);
             this.Controls.Add(this.Volver);
