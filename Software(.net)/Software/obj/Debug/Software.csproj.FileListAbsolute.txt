@@ -113,3 +113,6 @@ D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Softw
 D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
 D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.exe
 D:\Documents\Ismael Doc\MACHINE LEARNING\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.resx
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.cs
+C:\Users\KyB\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.Designer.cs

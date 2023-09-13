@@ -70,5 +70,22 @@ namespace Software
         {
             CargarFecha();
         }
+
+        private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            DateTime select = monthCalendar1.SelectionStart;
+            string fecha = select.Year.ToString() + select.Month.ToString() + select.Day.ToString();
+            StreamWriter archivo = new StreamWriter(fecha);
+            for (int f = 0; f < dataGridView1.Rows.Count; f++)
+            {
+                archivo.WriteLine(dataGridView1.Rows[f].Cells[0].Value.ToString());
+                if (dataGridView1.Rows[f].Cells[0].Value != null) {
+                    archivo.WriteLine(dataGridView1.Rows[f].Cells[1].Value.ToString());
+                }
+                else {
+                    archivo.WriteLine(""); }
+            }
+            archivo.Close();
+        }
     }
 }
