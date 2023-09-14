@@ -42,11 +42,15 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtPassconf = new System.Windows.Forms.TextBox();
+            this.btn_Exa_CC = new System.Windows.Forms.Button();
+            this.Ruta_Logo = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.Name_Logo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnCrearC
             // 
-            this.btnCrearC.Location = new System.Drawing.Point(16, 264);
+            this.btnCrearC.Location = new System.Drawing.Point(16, 222);
             this.btnCrearC.Name = "btnCrearC";
             this.btnCrearC.Size = new System.Drawing.Size(98, 23);
             this.btnCrearC.TabIndex = 0;
@@ -109,7 +113,7 @@
             this.BVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BVolver.ForeColor = System.Drawing.Color.White;
-            this.BVolver.Location = new System.Drawing.Point(504, 265);
+            this.BVolver.Location = new System.Drawing.Point(504, 223);
             this.BVolver.Name = "BVolver";
             this.BVolver.Size = new System.Drawing.Size(75, 22);
             this.BVolver.TabIndex = 7;
@@ -120,7 +124,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 118);
+            this.label4.Location = new System.Drawing.Point(13, 103);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 8;
@@ -160,12 +164,43 @@
             this.txtPassconf.Size = new System.Drawing.Size(100, 20);
             this.txtPassconf.TabIndex = 11;
             // 
+            // btn_Exa_CC
+            // 
+            this.btn_Exa_CC.Location = new System.Drawing.Point(16, 154);
+            this.btn_Exa_CC.Name = "btn_Exa_CC";
+            this.btn_Exa_CC.Size = new System.Drawing.Size(75, 23);
+            this.btn_Exa_CC.TabIndex = 13;
+            this.btn_Exa_CC.Text = "Examinar";
+            this.btn_Exa_CC.UseVisualStyleBackColor = true;
+            this.btn_Exa_CC.Click += new System.EventHandler(this.btn_Exa_CC_Click);
+            // 
+            // Ruta_Logo
+            // 
+            this.Ruta_Logo.Location = new System.Drawing.Point(84, 103);
+            this.Ruta_Logo.Name = "Ruta_Logo";
+            this.Ruta_Logo.Size = new System.Drawing.Size(100, 20);
+            this.Ruta_Logo.TabIndex = 14;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // Name_Logo
+            // 
+            this.Name_Logo.Location = new System.Drawing.Point(84, 128);
+            this.Name_Logo.Name = "Name_Logo";
+            this.Name_Logo.Size = new System.Drawing.Size(100, 20);
+            this.Name_Logo.TabIndex = 15;
+            // 
             // CrearCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Honeydew;
-            this.ClientSize = new System.Drawing.Size(591, 299);
+            this.ClientSize = new System.Drawing.Size(591, 257);
+            this.Controls.Add(this.Name_Logo);
+            this.Controls.Add(this.Ruta_Logo);
+            this.Controls.Add(this.btn_Exa_CC);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPassconf);
             this.Controls.Add(this.label5);
@@ -183,9 +218,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(607, 338);
+            this.MaximumSize = new System.Drawing.Size(607, 296);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(607, 338);
+            this.MinimumSize = new System.Drawing.Size(607, 296);
             this.Name = "CrearCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrearCliente";
@@ -211,5 +246,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtPassconf;
+        private System.Windows.Forms.Button btn_Exa_CC;
+        private System.Windows.Forms.TextBox Ruta_Logo;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.TextBox Name_Logo;
     }
 }

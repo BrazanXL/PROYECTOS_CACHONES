@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ namespace Software
 {
     public partial class CrearCliente : Form
     {
+        Consulta_CEO obj_cCEO = new Consulta_CEO();
         CEO Vceo;
         public CrearCliente()
         {
@@ -47,16 +49,35 @@ namespace Software
                             {
                                 if (txtPassconf.Text == txtPass.Text)
                                 {
-                                    String IDC = txtIDCliente.Text;
-                                    String NameC = txtNameClient.Text;
-                                    String NitC = txtNitClient.Text;
-                                    String PassConf = txtPassconf.Text;
-                                    MessageBox.Show("Se ha registrado con exito", "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                    txtIDCliente.Text = "";
-                                    txtNameClient.Text = "";
-                                    txtNitClient.Text = "";
-                                    txtPass.Text = "";
-                                    txtPassconf.Text = "";
+                                    if (Ruta_Logo.Text != "")
+                                    {
+                                                                               
+                                        // Logo Clientes
+                                        byte[] logo = null;
+                                        Stream MySteam = openFileDialog1.OpenFile();
+                                        MemoryStream logo_Open = new MemoryStream();
+                                        MySteam.CopyTo(logo_Open);
+                                        logo = logo_Open.ToArray();
+                                        //<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+                                        // Datos clientes
+                                        obj_cCEO.Nit = txtNitClient.Text;
+                                        obj_cCEO.Nombre = txtNameClient.Text;
+                                        obj_cCEO.Pass = txtPassconf.Text;
+                                        obj_cCEO.Logo = logo;
+                                        obj_cCEO.Extension = txtNitClient.Text;
+                                        //<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+                                        MessageBox.Show(obj_cCEO.AggCC());
+                                        //MessageBox.Show("Se ha registrado con exito", "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                        // limpiar campos
+                                        txtIDCliente.Text = "";
+                                        txtNameClient.Text = "";
+                                        txtNitClient.Text = "";
+                                        txtPass.Text = "";
+                                        txtPassconf.Text = "";
+                                        Ruta_Logo.Text = "";
+                                        Name_Logo.Text = "";
+                                    }
+                                    else { }
 
                                 }
                                 else
@@ -87,6 +108,16 @@ namespace Software
         private void CrearCliente_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Exa_CC_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.InitialDirectory = "C:\\Documentos";
+            openFileDialog1.Filter = "Todos los archivos (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
+
+            if(openFileDialog1.ShowDialog()==DialogResult.OK)
+                Ruta_Logo.Text = openFileDialog1.FileName;
         }
     }
 }
