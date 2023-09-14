@@ -98,5 +98,10 @@ namespace Software
                 BLogin_Click(sender, e);
             }
         }
+
+        private void Maestro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
