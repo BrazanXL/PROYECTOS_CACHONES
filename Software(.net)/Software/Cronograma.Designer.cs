@@ -47,9 +47,11 @@
             // 
             // Volver
             // 
-            this.Volver.Location = new System.Drawing.Point(857, 455);
+            this.Volver.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Volver.Location = new System.Drawing.Point(715, 455);
             this.Volver.Name = "Volver";
-            this.Volver.Size = new System.Drawing.Size(75, 23);
+            this.Volver.Size = new System.Drawing.Size(72, 23);
             this.Volver.TabIndex = 2;
             this.Volver.Text = "Volver";
             this.Volver.UseVisualStyleBackColor = true;
@@ -57,9 +59,12 @@
             // 
             // Ltxt_Fecha
             // 
+            this.Ltxt_Fecha.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Ltxt_Fecha.AutoSize = true;
             this.Ltxt_Fecha.Font = new System.Drawing.Font("Yu Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ltxt_Fecha.Location = new System.Drawing.Point(364, 271);
+            this.Ltxt_Fecha.Location = new System.Drawing.Point(229, 271);
             this.Ltxt_Fecha.Name = "Ltxt_Fecha";
             this.Ltxt_Fecha.Size = new System.Drawing.Size(47, 16);
             this.Ltxt_Fecha.TabIndex = 3;
@@ -69,11 +74,14 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Hora,
             this.Actividad});
-            this.dataGridView1.Location = new System.Drawing.Point(367, 18);
+            this.dataGridView1.Location = new System.Drawing.Point(232, 18);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(565, 250);
             this.dataGridView1.TabIndex = 4;
@@ -95,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(944, 496);
+            this.ClientSize = new System.Drawing.Size(809, 496);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Ltxt_Fecha);
             this.Controls.Add(this.Volver);
