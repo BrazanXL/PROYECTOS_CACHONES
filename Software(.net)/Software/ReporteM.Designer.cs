@@ -123,11 +123,11 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< Updated upstream
+
             this.label3.Location = new System.Drawing.Point(12, 66);
-=======
+
             this.label3.Location = new System.Drawing.Point(172, 66);
->>>>>>> Stashed changes
+
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(145, 18);
             this.label3.TabIndex = 5;
@@ -139,11 +139,11 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< Updated upstream
+
             this.label4.Location = new System.Drawing.Point(351, 67);
-=======
+
             this.label4.Location = new System.Drawing.Point(511, 67);
->>>>>>> Stashed changes
+
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(188, 18);
             this.label4.TabIndex = 7;
@@ -191,11 +191,11 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< Updated upstream
+
             this.label6.Location = new System.Drawing.Point(9, 160);
-=======
+
             this.label6.Location = new System.Drawing.Point(169, 160);
->>>>>>> Stashed changes
+
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(189, 18);
             this.label6.TabIndex = 12;
@@ -213,11 +213,11 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< Updated upstream
+
             this.label7.Location = new System.Drawing.Point(9, 192);
-=======
+
             this.label7.Location = new System.Drawing.Point(169, 192);
->>>>>>> Stashed changes
+
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(55, 18);
             this.label7.TabIndex = 14;
@@ -236,11 +236,11 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< Updated upstream
+
             this.label8.Location = new System.Drawing.Point(9, 229);
-=======
+
             this.label8.Location = new System.Drawing.Point(169, 229);
->>>>>>> Stashed changes
+
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(64, 18);
             this.label8.TabIndex = 16;
@@ -258,11 +258,11 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< Updated upstream
+
             this.label9.Location = new System.Drawing.Point(9, 266);
-=======
+
             this.label9.Location = new System.Drawing.Point(169, 266);
->>>>>>> Stashed changes
+
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(36, 18);
             this.label9.TabIndex = 18;
@@ -290,7 +290,7 @@
             this.panel3.TabIndex = 20;
             // 
             // textBox9
-<<<<<<< Updated upstream
+
             // 
             this.textBox9.Location = new System.Drawing.Point(358, 211);
             this.textBox9.Multiline = true;
@@ -307,8 +307,8 @@
             this.textBox8.TabIndex = 19;
             // 
             // label12
-=======
->>>>>>> Stashed changes
+
+
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
@@ -402,11 +402,11 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< Updated upstream
+
             this.button1.Location = new System.Drawing.Point(284, 663);
-=======
+
             this.button1.Location = new System.Drawing.Point(444, 663);
->>>>>>> Stashed changes
+
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(127, 31);
             this.button1.TabIndex = 21;
