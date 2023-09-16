@@ -30,7 +30,7 @@ namespace Software
         public string AggCC() 
         {
             connection.Open();
-            MySqlCommand comando = new MySqlCommand("INSERT INTO Clientes (@nit, @nombre, @logo, @pass)", connection);
+            MySqlCommand comando = new MySqlCommand("INSERT INTO Clientes (@nit, @nombre, @logo, @extension, @pass)", connection);
             comando.CommandType = CommandType.Text;
             comando.Parameters.AddWithValue("@nit", Nit);
             comando.Parameters.AddWithValue("@nombre", Nombre);

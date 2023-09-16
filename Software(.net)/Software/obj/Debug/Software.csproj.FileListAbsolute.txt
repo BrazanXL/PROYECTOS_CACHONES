@@ -144,3 +144,7 @@ E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\es\Softwar
 E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.csproj.CopyComplete
 E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.exe
 E:\Game Projects\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.pdb
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.resx
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.cs
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\bin\Debug\ReporteM.Designer.cs
+C:\Users\han_o\Documents\GitHub\PROYECTOS_CACHONES\Software(.net)\Software\obj\Debug\Software.Cronograma.resources
